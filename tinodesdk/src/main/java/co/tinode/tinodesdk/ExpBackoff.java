@@ -7,7 +7,7 @@ import java.util.Random;
  */
 public class ExpBackoff {
     private static final String TAG = "ExpBackoff";
-
+    //testing
     // Minimum delay = 500ms, expected ~1000ms;
     private static final int BASE_SLEEP_MS = 500;
     // Maximum delay 2^11 ~ 2000 seconds
